@@ -1,0 +1,10 @@
+{
+  "name": "RunnerOS",
+  "description": "Strava-class running and workout tracker PWA with GPS recording, metrics, history, training plans, and diagnostics.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

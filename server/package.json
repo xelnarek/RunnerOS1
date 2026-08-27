@@ -1,0 +1,12 @@
+{
+  "name": "runneros-api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs",
+    "migrate": "node migrate.mjs"
+  },
+  "dependencies": {
+    "pg": "^8.16.3"
+  }
+}

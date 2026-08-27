@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RunnerOS</string>
+    <string name="tracking_channel">RunnerOS — trening</string>
+    <string name="tracking_notification_title">RunnerOS aktywnie śledzi trening</string>
+</resources>

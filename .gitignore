@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+.android/
+.gradle/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.idea/
+.vscode/
+server/.env
+android/local.properties

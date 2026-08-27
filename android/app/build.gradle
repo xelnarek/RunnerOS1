@@ -1,0 +1,28 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'com.runneros.app'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'com.runneros.app'
+        minSdk 26
+        targetSdk 36
+        versionCode 21
+        versionName '2.1.0'
+    }
+
+    buildFeatures { buildConfig true }
+}
+
+dependencies {
+    implementation 'androidx.core:core-ktx:1.16.0'
+    implementation 'androidx.activity:activity-ktx:1.10.1'
+    implementation 'androidx.lifecycle:lifecycle-service:2.9.2'
+    implementation 'androidx.health.connect:connect-client:1.2.0-alpha05'
+    implementation 'com.google.android.gms:play-services-location:21.3.0'
+    implementation 'com.getcapacitor:capacitor-android:8.0.0'
+}
